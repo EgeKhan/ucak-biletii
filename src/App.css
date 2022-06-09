@@ -7,6 +7,36 @@
   pointer-events: none;
 }
 
+nav{
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+nav ul{
+  background-color: white;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  margin-top: 5px;
+  max-width: 15%;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  list-style: none;
+}
+
+nav ul li{
+  display: inline;
+  margin: 20px;
+  padding: 5px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
