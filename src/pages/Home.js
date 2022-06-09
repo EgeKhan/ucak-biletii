@@ -1,5 +1,5 @@
 import React from "react";
-import FlightItems from "./FlightItems";
+import FlightItems from "../components/FlightItems";
 
 const flight_list = [
     { id: 'e1', kalkis: 'İzmir', varis: 'İstanbul', ucusZamani: '1 Saat', price: 564, date: new Date(2022, 10, 19) },

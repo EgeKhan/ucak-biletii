@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import Home from './components/Home';
+import Home from './pages/Home';
 import TicketProcess from './pages/TicketProcess';
 import MyTickets from './pages/MyTickets';
 
